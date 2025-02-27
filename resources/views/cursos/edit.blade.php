@@ -19,8 +19,8 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
     }
     body {
-        background: linear-gradient(to right, #587214, #D4145A); /* Fondo con degradado */
-        color: white; /* Color del texto para contraste */
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white; 
         text-align: center;
         font-family: 'Roboto', sans-serif;
     }
@@ -31,9 +31,9 @@
 
     table {
         background: linear-gradient(70deg, blue, pink);
-        margin: auto; /* Centrar la tabla */
+        margin: auto; 
         padding: 20px;
-        border-radius: 10px; /* Bordes redondeados */
+        border-radius: 20px; 
         color: black;
     }
 
@@ -71,6 +71,11 @@
             </select>
         </td>
     </tr>
+    <tr>
+        <td>Numero de Jugadores🏆🏆</td>
+        <td><input type="text" name="numero" placeholder="numero de jugadores" style="width: 500px;" required></td>
+        </tr>
+    <tr>
     <tr>
     <td>Nombre de la Universiad 🏦</td>
     <td><input type="text" name="universidad" placeholder="UNIVERSIDAD" style="width: 500px;" required></td>

@@ -24,7 +24,7 @@
         
         
         <a href="/" class="button" 
-        style="display: inline-block; padding: 10px; background-color: blue; color: white; border: 2px solid white; border-radius: 5px;">IR AL HOME PRINCIPAL</a>
+        style="display: inline-block; padding: 10px; background-color: blue; color: white; border: 2px solid white; border-radius: 5px;">CERRAR SESION</a>
         
         @yield('content')
     </center>

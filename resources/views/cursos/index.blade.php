@@ -19,7 +19,7 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
     }
 body {
-    background: linear-gradient(to right, #587214, #D4145A);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white; 
     text-align: center;
     font-family: Arial, sans-serif; 
@@ -131,9 +131,6 @@ td {
 <br>
 <br>
 <button type="button" class="btn-shadow">GESTIONAR NOTIFICACIONES</button>
-<button type="button" class="btn-shadow">GESTIONAR NOTIFICACIONES</button>
-
-
 @endsection
 
 

@@ -19,7 +19,7 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
     }
     body {
-        background: linear-gradient(to right, #587214, #D4145A); /* Fondo con degradado */
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
         color: white; /* Color del texto para contraste */
         text-align: center;
         font-family: Arial, sans-serif;
@@ -54,6 +54,12 @@
     <tr>
         <td>Nombre del Participante 🙋‍♂️🙋‍♀️</td>
         <td><input type="text" name="nombre" placeholder="NOMBRE COMPLETO" style="width: 500px;" required></td>
+    </tr>
+    <tr>
+        <td>Numero de Camisa😎🎖️</td>
+        <td>
+            <input type="text" name="camisa" placeholder="NUMERO DE CAMISA" style="width: 500px;" required>
+        </td>
     </tr>
     <tr>
         <td>Tipo de Deporte a Desarrollar🏁🏁🏁</td>
