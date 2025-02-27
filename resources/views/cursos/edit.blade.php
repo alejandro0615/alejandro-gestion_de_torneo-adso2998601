@@ -29,9 +29,15 @@
         margin-top: 20px;
     }
 
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
     table {
         background: linear-gradient(70deg, blue, pink);
-        margin: auto; 
         padding: 20px;
         border-radius: 20px; 
         color: black;
@@ -47,105 +53,96 @@
         padding: 10px;
     }
 </style>
+
+<div class="container">
     <table border="1">
-    <tr>
-        <td>ID del Equipo a Ingresar</td>
-        </td>
-        <td><input type="text" name="id" placeholder="ID DEL EQUIPO" style="width: 500px;" required></td>
-    </tr>
-    <tr>
-        <td>Nombre Del Equipo 🏆🏆🏆</td>
-        <td><input type="text" name="equipo" placeholder="EQUIPO" style="width: 500px;" required></td>
+        <tr>
+            <td>ID del Equipo a Ingresar</td>
+            <td><input type="text" name="id" placeholder="ID DEL EQUIPO" style="width: 500px;" required></td>
         </tr>
-    <tr>
-    <tr>
-        <td>Tipo De Deporte a Desarrollar 🏁🏁🏁</td>
-        <td>
-            <select name="deporte" required>
-                <option value=""></option>
-                <option value="futbol">Fútbol</option>
-                <option value="basketball">Basketball</option>
-                <option value="tenis">Tenis</option>
-                <option value="tenis de mesa">Tenis de Mesa</option>
-                <option value="voleibol">Voleibol</option>
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>Numero de Jugadores🏆🏆</td>
-        <td><input type="text" name="numero" placeholder="numero de jugadores" style="width: 500px;" required></td>
+        <tr>
+            <td>Nombre Del Equipo 🏆🏆🏆</td>
+            <td><input type="text" name="equipo" placeholder="EQUIPO" style="width: 500px;" required></td>
         </tr>
-    <tr>
-    <tr>
-    <td>Nombre de la Universiad 🏦</td>
-    <td><input type="text" name="universidad" placeholder="UNIVERSIDAD" style="width: 500px;" required></td>
-    </tr>
-        <td>Entrenador Asignado</td>
-        <td>
-            <select name="entrenador" required>
-                <option value=""></option>
-                <option value="oscar">Oscar Galves (Futbol)</option>
-                <option value="oscar">Romulo Gallegos (Baloncesto)</option>
-                <option value="oscar">Jessica Pineda (Voleibol)</option>
-                <option value="oscar"> Mauricio Gallego(Tenis)</option>
-                <option value="oscar">Carolina Aristizabal (Tenis de Mesa)</option>
-                <option value="oscar">Diana Giraldo(Voleibol)</option>
-            </select>
-        </td>
+        <tr>
+            <td>Tipo De Deporte a Desarrollar 🏁🏁🏁</td>
+            <td>
+                <select name="deporte" required>
+                    <option value=""></option>
+                    <option value="futbol">Fútbol</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="tenis">Tenis</option>
+                    <option value="tenis de mesa">Tenis de Mesa</option>
+                    <option value="voleibol">Voleibol</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Numero de Jugadores🏆🏆</td>
+            <td><input type="text" name="numero" placeholder="numero de jugadores" style="width: 500px;" required></td>
+        </tr>
+        <tr>
+            <td>Nombre de la Universiad 🏦</td>
+            <td><input type="text" name="universidad" placeholder="UNIVERSIDAD" style="width: 500px;" required></td>
+        </tr>
+        <tr>
+            <td>Entrenador Asignado</td>
+            <td>
+                <select name="entrenador" required>
+                    <option value=""></option>
+                    <option value="oscar">Oscar Galves (Futbol)</option>
+                    <option value="oscar">Romulo Gallegos (Baloncesto)</option>
+                    <option value="oscar">Jessica Pineda (Voleibol)</option>
+                    <option value="oscar"> Mauricio Gallego(Tenis)</option>
+                    <option value="oscar">Carolina Aristizabal (Tenis de Mesa)</option>
+                    <option value="oscar">Diana Giraldo(Voleibol)</option>
+                </select>
+            </td>
         </tr>
         <tr>
             <td>Fecha a Competir 📅</td>
             <td><input type="date" name="fecha_competencia" required></td>
         </tr>
-</table>
-<br>
-<br>
-<br>
-<button type="button" class="btn-shadow">REGISTRAR EQUIPO</button>
-<br>
-<br>
-<br>
-<br>
-<table border="1">
-    <tr><td>EQUIPO NOTIFICADO</td>
-        <td>NOTIFICACION</td>
-        <td>FECHA DE NOTIFICACION</td>
-    </tr>
-    <tr>
-        <td style="width: 100px; height: 100px;">LOS HALCONES</td>
-        <td style="width: 100px; height: 100px;">Coordial saludo desde administrativos de las SUSTOLIMPIADAS ⛹️‍♀️🏁
-            se le notifica que el equipo a sido programado para jugar en el torneo de la semana de 20/MAYO/2025 
-            en la Universidad Santamaria
-        <td style="width: 100px; height: 100px;">10/ENERO/2025</td>
-    </tr>
-    <tr>
-        <td style="width: 100px; height: 100px;">LOS TIGRES DEL NORTE</td>
-        <td style="width: 100px; height: 100px;">Coordial saludo desde administrativos de las SUSTOLIMPIADAS 
-            se le notifica que el equipo a sido programado para jugar en el torneo de la semana de 01/JUNIO/2025 
-            en la Universidad San Jose🏆🏆🏆
-        <td style="width: 100px; height: 100px;">16/ENERO/2025</td>    
-    </tr>
-    <tr>
-        <td style="width: 100px; height: 100px;">SUPERCAMPEONES</td>
-        <td style="width: 100px; height: 100px;">Coordial saludo desde administrativos de las SUSTOLIMPIADAS ⛹️‍♀️⛹️‍♂️
-            se le notifica que el equipo a sido programado para jugar en el torneo de la semana de 10/MARZO/2025 
-            en la Universidad Catalica👀🏦
-        <td style="width: 100px; height: 100px;">22/ENERO/2025</td>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 100px; height: 100px;">LAS MONJAS</td>
-        <td style="width: 100px; height: 100px;">Coordial saludo desde administrativos de las SUSTOLIMPIADAS 
-            se le notifica que el equipo a sido programado para jugar en el torneo de la semana de 01/JUNIO/2025 
-            en la Universidad San Jose🏆🏆🏆
-        <td style="width: 100px; height: 100px;">01/FEBRERO/2025</td>
-        </td>
-    </tr>
-</table>
-<br>
+    </table>
+    <button type="button" class="btn-shadow">REGISTRAR EQUIPO</button>
+    
+    <table border="1">
+        <tr><td>EQUIPO NOTIFICADO</td>
+            <td>NOTIFICACION</td>
+            <td>FECHA DE NOTIFICACION</td>
+        </tr>
+        <tr>
+            <td>LOS HALCONES</td>
+            <td>Coordial saludo desde administrativos de las SUSTOLIMPIADAS ⛹️‍♀️🏁
+                se le notifica que el equipo ha sido programado para jugar en el torneo de la semana de 20/MAYO/2025 
+                en la Universidad Santamaria</td>
+            <td>10/ENERO/2025</td>
+        </tr>
+        <tr>
+            <td>LOS TIGRES DEL NORTE</td>
+            <td>Coordial saludo desde administrativos de las SUSTOLIMPIADAS 
+                se le notifica que el equipo ha sido programado para jugar en el torneo de la semana de 01/JUNIO/2025 
+                en la Universidad San Jose🏆🏆🏆</td>
+            <td>16/ENERO/2025</td>    
+        </tr>
+        <tr>
+            <td>SUPERCAMPEONES</td>
+            <td>Coordial saludo desde administrativos de las SUSTOLIMPIADAS ⛹️‍♀️⛹️‍♂️
+                se le notifica que el equipo ha sido programado para jugar en el torneo de la semana de 10/MARZO/2025 
+                en la Universidad Catolica👀🏦</td>
+            <td>22/ENERO/2025</td>
+        </tr>
+        <tr>
+            <td>LAS MONJAS</td>
+            <td>Coordial saludo desde administrativos de las SUSTOLIMPIADAS 
+                se le notifica que el equipo ha sido programado para jugar en el torneo de la semana de 01/JUNIO/2025 
+                en la Universidad San Jose🏆🏆🏆</td>
+            <td>01/FEBRERO/2025</td>
+        </tr>
+    </table>
+</div>
+
 <br>
 <br>
 <button type="button" class="btn-shadow">GESTIONAR NOTIFICACIONES</button>
-
-<br><br>
 @endsection
