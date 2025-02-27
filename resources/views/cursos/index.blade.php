@@ -131,6 +131,8 @@ td {
 <br>
 <br>
 <button type="button" class="btn-shadow">GESTIONAR NOTIFICACIONES</button>
+<button type="button" class="btn-shadow">GESTIONAR NOTIFICACIONES</button>
+
 
 @endsection
 
