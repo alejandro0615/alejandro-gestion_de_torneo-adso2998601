@@ -19,10 +19,10 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
     }
 body {
-    background: linear-gradient(to right, #587214, #D4145A); /* Fondo con degradado */
-    color: white; /* Color del texto para contraste */
+    background: linear-gradient(to right, #587214, #D4145A);
+    color: white; 
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
 }
 
 h2 {
@@ -50,7 +50,7 @@ td {
 <br>
 <br>
 <br>
-<center><h2>Aca podras gestionar las fechas de los torneos🥰</h2></center>
+<center><h2>Aca podras gestionar las fechas de los torneos🙋‍♀️🙋‍♂️😎</h2></center>
 <table border="1">
     <tr><td>EQUIPO LOCAL</td>
         <td>EQUIPO VISITANTE</td>
