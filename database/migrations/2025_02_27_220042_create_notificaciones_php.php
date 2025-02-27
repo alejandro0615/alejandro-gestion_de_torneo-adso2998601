@@ -11,8 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('prroducts', function (Blueprint $table) {
+        Schema::create('notificaciones_php', function (Blueprint $table) {
             $table->id();
+            $table->string('notificacion');
+            $table->string('fecha');
+            $table->string('equipo');
             $table->timestamps();
         });
     }
@@ -22,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('prroducts');
+        Schema::dropIfExists('notificaciones_php');
     }
 };

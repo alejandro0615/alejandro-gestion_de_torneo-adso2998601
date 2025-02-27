@@ -11,18 +11,20 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('jugadores', function (Blueprint $table) {
+        Schema::create('evento_deportivo_php', function (Blueprint $table) {
             $table->id();
-            $table->int('cedula',14);
-            $table->string('nombre',255);
-            $table->string('nombre',255);
-            $table->string('universidad', 50);
-            $table->string('tipo_deporte',250);
+            $table->string('nombre_escenario');
+            $table->localdate('fecha_escenario');
+            $table->string('equipo_local');
             $table->timestamps();
         });
     }
+
+    /**
+     * Reverse the migrations.
+     */
     public function down(): void
     {
-        Schema::dropIfExists('jugadores');
+        Schema::dropIfExists('evento_deportivo_php');
     }
 };
