@@ -52,6 +52,20 @@
 
 <table border="1">
     <tr>
+        <td>Numero de Documento del Participante 🙋‍♂️🙋‍♀️</td>
+        <td><input type="text" name="nombre" placeholder="DOCUMENTO SIN PUNTOS NI COMAS" style="width: 500px;" required></td>
+    </tr>
+    <tr>
+        <td>Tipo de Documento👀</td>
+        <td>
+            <select name="documento" required>
+                <option value=""></option>
+                <option value="futbol">T.I</option>
+                <option value="basketball">C.C</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
         <td>Nombre del Participante 🙋‍♂️🙋‍♀️</td>
         <td><input type="text" name="nombre" placeholder="NOMBRE COMPLETO" style="width: 500px;" required></td>
     </tr>

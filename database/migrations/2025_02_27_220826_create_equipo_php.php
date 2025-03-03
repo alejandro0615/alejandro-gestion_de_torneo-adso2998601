@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('equipo_php', function (Blueprint $table) {
             $table->id();
-            $table->int('id equipo');
+            $table->string('id equipo');
             $table->string('nombre');
             $table->string('tipo deporte');
             $table->string('universidad');
