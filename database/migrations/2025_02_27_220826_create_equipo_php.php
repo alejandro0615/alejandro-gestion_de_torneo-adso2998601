@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('equipo_php', function (Blueprint $table) {
             $table->id();
+            $table->int('id equipo');
             $table->string('nombre');
-            $table->string('tipo_deporte');
-            $table->string('numero_equipo');
+            $table->string('tipo deporte');
             $table->string('universidad');
             $table->string('entrenador');
             $table->timestamps();

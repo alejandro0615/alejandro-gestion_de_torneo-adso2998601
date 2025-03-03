@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('notificacion');
             $table->string('fecha');
-            $table->string('equipo');
+            $table->string('equipo notificado');
             $table->timestamps();
         });
     }

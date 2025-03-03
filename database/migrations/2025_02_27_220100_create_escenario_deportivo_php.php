@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('escenario_deportivo_php', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre_escenario');
-            $table->string('equipo_local');
-            $table->string('equipo_visitante');
+            $table->string('nombre escenario');
+            $table->string('equipo local');
+            $table->string('equipo visitante');
             $table->timestamps();
         });
     }

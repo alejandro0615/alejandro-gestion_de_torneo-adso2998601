@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('nombre');
             $table->string('apellido');
-            $table->string('tipo_profesion');
+            $table->string('cedula');
+            $table->string('tipo de profesion');
             $table->string('universidad');  
             $table->timestamps();
         });
